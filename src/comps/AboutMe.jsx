@@ -9,7 +9,7 @@ const AboutMe = () => {
         <div className='about-me-container'>
             <div className="about-me">
                 <p className='about-me-paragraph'>
-                    Hello I am Barkle and I am a full stack developer. I have a passion for creating and building things. I am a quick learner and I am always looking for new challenges. I am a team player.
+                    Hello I am Barkley and I am a full stack developer. I have a passion for creating and building things. I am a quick learner and I am always looking for new challenges. I am a team player.
                    
                 </p>
                 <div>
