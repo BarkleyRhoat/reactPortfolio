@@ -1,5 +1,5 @@
 import React from 'react'
-// import icons
+import {TbBrandReact, TbBrandHtml5, TbBrandCss3, TbBrandBootstrap, TbBrandMongodb, TbBrandMysql, TbBrandJavascript  } from 'react-icons/all';
 import { motion } from 'framer-motion';
 import { ulVariants, iconVariants } from '../variants/aboutPageVariants';
 import photo from '../assets/aboutMePhoto.JPG'
@@ -28,6 +28,7 @@ const AboutMe = () => {
                         initial='initial'
                         animate='animate'
                         transition='transition'>
+                        <a href='https://reactjs.org/'><TbBrandReact className='stack-icon' /></a> 
                         
                     </motion.li>
                     <motion.li
@@ -35,29 +36,34 @@ const AboutMe = () => {
                         whileHover={'hover'}
                         animate='animate'
                         transition='transition'>
+                        <a href='https://www.w3schools.com/html/'><TbBrandHtml5 className='stack-icon' /></a>
                         </motion.li>
                     <motion.li
                         variants={iconVariants}
                         whileHover={'hover'}
                         animate='animate'
                         transition='transition'>
+                        <a href='https://www.w3schools.com/Css/'><TbBrandCss3 className='stack-icon' /></a>
                          </motion.li>
                     <motion.li variants={iconVariants}
                         whileHover={'hover'}
                         animate='animate'
                         transition='transition'>
+                        <a href='https://getbootstrap.com/'><TbBrandBootstrap className='stack-icon' /></a>
                         </motion.li>
                     <motion.li
                         variants={iconVariants}
                         whileHover={'hover'}
                         animate='animate'
                         transition='transition'>
+                        <a href='https://www.mongodb.com/'><TbBrandMongodb className='stack-icon' /></a>
                         </motion.li>
                     <motion.li
                         variants={iconVariants}
                         whileHover={'hover'}
                         animate='animate'
                         transition='transition'>
+                        <a href='https://www.mysql.com/'><TbBrandMysql className='stack-icon' /></a>
                        </motion.li>
                     <motion.li
                         variants={iconVariants}
@@ -65,18 +71,7 @@ const AboutMe = () => {
                         animate='animate'
                         transition='transition'>
                         </motion.li>
-                    <motion.li
-                        variants={iconVariants}
-                        whileHover={'hover'}
-                        animate='animate'
-                        transition='transition'>
-                        </motion.li>
-                    <motion.li
-                        variants={iconVariants}
-                        whileHover={'hover'}
-                        animate='animate'
-                        transition='transition'>
-                        </motion.li>
+                        <a href='hhttps://www.w3schools.com/js/DEFAULT.asp'><TbBrandJavascript className='stack-icon' /></a>
                 </motion.ul>
             </div>
         </div>
