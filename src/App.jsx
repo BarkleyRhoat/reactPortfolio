@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {createContext} from "react";
 import './index.css';
-import { Navbar } from 'react-bootstrap';
+// import { Navbar } from 'react-bootstrap';
 import Navbar from "./comps/NavBar";
 import FullPage from "./comps/ReactFullPage"
 
