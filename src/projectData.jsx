@@ -1,6 +1,6 @@
 import tasteBudsPhoto from './assets/tastebuds.png'
 import dinnerApp from './assets/whatsForDinner.png'
-import socialMediaApi from './assets/addFriend.png'
+import socialMediaApi from './assets/AddFriend.png'
 
 export const projectsData = [
     {
