@@ -28,3 +28,5 @@ export const projectsData = [
         link: '',
       }
 ]
+
+module.export = projectData

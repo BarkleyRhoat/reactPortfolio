@@ -1,6 +1,6 @@
 import React from 'react';
 import { anticipate, motion } from 'framer-motion';
-import { PiLinkedinLogoFill, PiGithubLogoFill } from 'react-icons/all'
+import { PiLinkedinLogoFill, PiGithubLogoFill } from 'react-icons/pi'
 import {childVariants, containerVariants, headerVariants, paragraphVariant, iconVariants} from '../variants/homeVariants'
 
 // Functional component for the Home Page

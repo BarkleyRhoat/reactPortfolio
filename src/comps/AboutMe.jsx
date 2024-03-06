@@ -1,5 +1,5 @@
 import React from 'react'
-import {TbBrandReact, TbBrandHtml5, TbBrandCss3, TbBrandBootstrap, TbBrandMongodb, TbBrandMysql, TbBrandJavascript  } from 'react-icons/all';
+import {TbBrandReact, TbBrandHtml5, TbBrandCss3, TbBrandBootstrap, TbBrandMongodb, TbBrandMysql, TbBrandJavascript  } from 'react-icons/tb';
 import { motion } from 'framer-motion';
 import { ulVariants, iconVariants } from '../variants/aboutPageVariants';
 import photo from '../assets/aboutMePhoto.JPG'

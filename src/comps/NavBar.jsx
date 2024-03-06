@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { RxSun, RxMoon } from 'react-icons/all';
+import { FiSun, FiMoon } from 'react-icons/fi';
 import ReactSwitch from "react-switch";
 import {navBarVariants} from "../variants/navBarVariants";
 
@@ -36,8 +36,8 @@ const NavBar = ({toggleTheme}) => {
       <ReactSwitch
         onChange={handleChange}
         checked={checked}
-        uncheckedIcon={< RxSun className="sun" />}
-        checkedIcon={< RxMoon className="moon" />}
+        uncheckedIcon={< FiSun className="sun" />}
+        checkedIcon={< FiMoon className="moon" />}
         className='switch'></ReactSwitch>
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { PiGithubLogoFill } from "react-icons/pi";
 import { buttonVariants, ghlinkVariants } from '../variants/buttonVariants';
-import { projectsData } from '../projectsData';
+import  {projectsData}  from '../projectData';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
