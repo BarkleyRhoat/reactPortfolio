@@ -29,4 +29,4 @@ export const projectsData = [
       }
 ]
 
-module.export = projectData
+module.export = projectsData
