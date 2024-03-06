@@ -1,11 +1,11 @@
 import React from 'react';
-import { headerVariants } from '../variants/headerVariants';
+import { headVariants } from '../variants/headVariants';
 
 
 
 const Header = () => {
   return (
-    <div className="header"style={headerVariants.animatedHeader}>
+    <div className="header"style={headVariants.animatedHeader}>
       <h2>Welcome</h2>
     </div>
   );

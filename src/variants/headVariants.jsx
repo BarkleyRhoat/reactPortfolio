@@ -1,4 +1,4 @@
-export const headerVariants = {
+export const headVariants = {
     animatedHeader: {
       animation: 'slideIn 2s ease-in-out', // Adjust the duration and timing function as needed
     },
