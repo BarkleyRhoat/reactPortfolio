@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { PiGithubLogoFill } from "react-icons/pi";
 import { buttonVariants, ghlinkVariants } from '../variants/buttonVariants';
-import  {projectsData}  from '../projectData';
+import  {projectData}  from '../projectData';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -28,7 +28,7 @@ function Projects() {
     return (
         <div className='projects-container'>
           <Slider {...settings} className='slider'>
-            {projectsData.map((project) => (
+            {projectData.map((project) => (
               <div>
                 <div key={project.id} id={project.id} className='projects-card'>
                   <img src={project.photo} className='projects-photo' />

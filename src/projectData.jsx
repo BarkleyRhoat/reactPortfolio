@@ -2,7 +2,7 @@ import tasteBudsPhoto from './assets/tastebuds.png'
 import dinnerApp from './assets/whatsForDinner.png'
 import socialMediaApi from './assets/AddFriend.png'
 
-export const projectsData = [
+export const projectData = [
     {
       id: 1,
       photo: tasteBudsPhoto,
@@ -29,4 +29,4 @@ export const projectsData = [
       }
 ]
 
-module.export = projectsData
+export default projectData

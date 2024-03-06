@@ -78,6 +78,7 @@ h3 {
   .border {
     border-bottom: 2px solid;
     width: 200px;
+    
   }
   
   a {
@@ -127,6 +128,7 @@ h3 {
   
   .shot {
     border-radius: 6px;
+    height: 500px;
   }
   
   .about-me-paragraph {
