@@ -25,14 +25,14 @@ const NavBar = ({toggleTheme}) => {
         variants={navBarVariants}
         animate='animate'
         whileHover='whileHover' href="#Projects">Projects</motion.a>
+         <motion.a
+        variants={navBarVariants}
+        animate='animate'
+        whileHover='whileHover' href="#Resume">Resume</motion.a>
       <motion.a
         variants={navBarVariants}
         animate='animate'
         whileHover='whileHover' href="#Contact">Contact</motion.a>
-        {/* <motion.a
-        variants={navBarVariants}
-        animate='animate'
-        whileHover='whileHover' href="#Resume">Resume</motion.a> */}
       <ReactSwitch
         onChange={handleChange}
         checked={checked}

@@ -16,6 +16,7 @@ const AboutMe = () => {
                     <img src={photo} className='shot' />
                 </div>
             </div>
+            {/* <div>Skills</div> */}
             <div>
                 <motion.ul
                     variants={ulVariants}

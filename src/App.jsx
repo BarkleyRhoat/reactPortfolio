@@ -4,6 +4,8 @@ import './index.css';
 // import { Navbar } from 'react-bootstrap';
 import Navbar from "./comps/NavBar";
 import FullPage from "./comps/ReactFullPage"
+import Header from "./comps/Header"
+import Footer from "./comps/Footer"
 
 export const ThemeContext = createContext(null);
 
@@ -17,8 +19,10 @@ const App = () => {
     return (
         <ThemeContext.Provider value={{theme, setTheme}}>
             <div id={theme}>
+                <Header/>
                 <Navbar toggleTheme={toggleTheme}/>
                 <FullPage />
+                <Footer/>
             </div>
             </ThemeContext.Provider>
     )
