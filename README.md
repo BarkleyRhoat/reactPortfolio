@@ -1,8 +1,40 @@
 # React Portfolio
+ by Barkley Rhoat
+   ![Github license](https://img.shields.io/badge/license-MIT-yellowgreen.svg)
+## Description
+Welcome to my portfolio. This portfilio is to show you my skills and growth throughout my time developing projects. 
+## Table of Contents
+  * [Description](#description)
+  * [Requirements](#requirements)
+  * [Usage](#usage)
+  * [Contact-Me](#contact-me)
+  * [Contributors](#contributors)
+  * [Testing](#testing)
+  * [License](#license)
+  ## About Project 
+  ![screenshot](/images/home-page)
+### Built with
+This project was built with React, Framer Motion, FullPagejs, React Slick and the React Icon library. 
+ * [![React][React.js]][React-url]
+ * [![Bootstrap][Bootstrap.css]][Bootstrap-url]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Usage
 
-Currently, two official plugins are available:
+## Contributors
+* ChatGPT
+* Class Repo
+* StackOverFlow
+* Open Source Repos 
+  
+## Testing
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Contact
+
+* rhoatdesigns@gmail.com
+
+Project Link [https://github.com/BarkleyRhoat/reactPortfolio]
+
+  
+  ## License
+
+      Licensed under the MIT license.

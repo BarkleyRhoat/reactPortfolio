@@ -6,6 +6,8 @@ import Navbar from "./comps/NavBar";
 import FullPage from "./comps/ReactFullPage"
 import Header from "./comps/Header"
 import Footer from "./comps/Footer"
+import { motion } from 'framer-motion'
+import { headerVariants } from './variants/homeVariants';
 
 export const ThemeContext = createContext(null);
 
