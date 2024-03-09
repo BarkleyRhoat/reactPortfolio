@@ -11,28 +11,44 @@ const NavBar = ({toggleTheme}) => {
         toggleTheme();
     };
 
+    const handleDownload = () => {
+      const resumePath = '../Resume.pdf';
+      const link = document.createElement('a');
+      link.href = resumePath;
+      link.download = 'Resume.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    };
+
     return (
         <div className="sidenav">
       <motion.a
         variants={navBarVariants}
         animate='animate'
-        whileHover='whileHover' href="#Home">Home</motion.a>
+        whileHover='whileHover' 
+        href="#Home">Home</motion.a>
       <motion.a
         variants={navBarVariants}
         animate='animate'
-        whileHover='whileHover' href="#About">Bio</motion.a>
+        whileHover='whileHover'
+         href="#About">Bio</motion.a>
       <motion.a
         variants={navBarVariants}
         animate='animate'
-        whileHover='whileHover' href="#Projects">Projects</motion.a>
+        whileHover='whileHover' 
+        href="#Projects">Projects</motion.a>
          <motion.a
         variants={navBarVariants}
         animate='animate'
-        whileHover='whileHover' href="#Resume">Resume</motion.a>
+        whileHover='whileHover'
+        onClick={handleDownload}
+        href="#Resume">Resume</motion.a>
       <motion.a
         variants={navBarVariants}
         animate='animate'
-        whileHover='whileHover' href="#Contact">Contact</motion.a>
+        whileHover='whileHover' 
+        href="#Contact">Contact</motion.a>
       <ReactSwitch
         onChange={handleChange}
         checked={checked}
