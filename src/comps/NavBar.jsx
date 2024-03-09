@@ -4,6 +4,7 @@ import { FiSun, FiMoon } from 'react-icons/fi';
 import ReactSwitch from "react-switch";
 import {navBarVariants} from "../variants/navBarVariants";
 
+
 const NavBar = ({toggleTheme}) => {
     const [checked, setChecked] = useState(false);
     const handleChange = nextChecked => {
@@ -12,7 +13,7 @@ const NavBar = ({toggleTheme}) => {
     };
 
     const handleDownload = () => {
-      const resumePath = '../Resume.pdf';
+      const resumePath = './Resume.pdf';
       const link = document.createElement('a');
       link.href = resumePath;
       link.download = 'Resume.pdf';

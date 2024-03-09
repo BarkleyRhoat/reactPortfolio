@@ -44,7 +44,7 @@ const ContactForm = () => {
 
       return (
         <div className='form-div'>
-        <form className="form-container" action="https://formspree.io/f/xdovkdoz"
+        <form className="form-container" action="https://formspree.io/f/myyrpppy"
           method="POST">
           <label htmlFor="name" className="form-label">
             Name
