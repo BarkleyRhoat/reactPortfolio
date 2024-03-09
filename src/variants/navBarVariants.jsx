@@ -6,6 +6,6 @@ export const navBarVariants = {
     whileHover: {
         scale: 1.3,
         rotate: 360,
-        color: '#467e61'
+        color: '#9A2751'
     }
 }

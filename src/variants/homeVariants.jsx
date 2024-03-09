@@ -29,7 +29,7 @@ export const childVariants = {
 }
 export const headerVariants = {
     animate: {
-        color: ["#f2c07c", "#467e61", '#CF9FFF'],
+        color: ["#9A2751", "#B1AA68", '#649385'],
         transition: {
             delay: 1,
             duration: 2,

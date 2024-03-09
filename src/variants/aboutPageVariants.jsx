@@ -13,7 +13,7 @@ export const iconVariants = {
     },
     animate: {
         rotate: 0,
-        color: ["#FF5733", "#64d86b", '#CF9FFF'],
+        color: ["#649385", "#BB5F51", '#5D3353'],
         transition: {
             delay: 1,
             duration: 2,

@@ -71,8 +71,9 @@ const AboutMe = () => {
                         whileHover={'hover'}
                         animate='animate'
                         transition='transition'>
-                        </motion.li>
                         <a href='hhttps://www.w3schools.com/js/DEFAULT.asp'><TbBrandJavascript className='stack-icon' /></a>
+                        </motion.li>
+                        
                 </motion.ul>
             </div>
         </div>
