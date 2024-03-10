@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { FiSun, FiMoon } from 'react-icons/fi';
 import ReactSwitch from "react-switch";
 import {navBarVariants} from "../variants/navBarVariants";
+import '../index.css'
 
 
 const NavBar = ({toggleTheme}) => {
@@ -55,7 +56,8 @@ const NavBar = ({toggleTheme}) => {
         checked={checked}
         uncheckedIcon={< FiSun className="sun" />}
         checkedIcon={< FiMoon className="moon" />}
-        className='switch'></ReactSwitch>
+        className='switch switch-background'>
+        </ReactSwitch>
 
 
     </div>

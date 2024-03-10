@@ -121,7 +121,15 @@ h3 {
   
   .switch {
     transform: rotate(-90deg);
+    --react-switch-bg: #9A2751;
+    /* background-color: #9A2751; */
   }
+  .react-switch-bg {
+    background-color: var(--react-switch-bg);
+  }
+  /* .switch-background {
+    background-color: #9A2751;
+  } */
   
   .moon {
     margin-top: 5px;
