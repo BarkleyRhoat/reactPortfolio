@@ -29,6 +29,11 @@ This project was built with
 * Class Repo
 * StackOverFlow
 * Open Source Repos 
+* https://www.framer.com/motion/examples/
+* https://dev.to/joserfelix/page-transitions-in-react-1c8g
+* https://alvarotrigo.com/fullPage/docs/
+* Github: midudev (helped with framer motion)
+* Github: akiran (helped with react slick)
   
 ## Testing
 
