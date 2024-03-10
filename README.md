@@ -14,9 +14,13 @@ Welcome to my portfolio. This portfilio is to show you my skills and growth thro
   ## About Project 
   ![screenshot](/images/home-page)
 ### Built with
-This project was built with React, Framer Motion, FullPagejs, React Slick and the React Icon library. 
- * [![React][React.js]][React-url]
- * [![Bootstrap][Bootstrap.css]][Bootstrap-url]
+This project was built with 
+* React
+* Framer Motion
+* FullPagejs
+* React Slick
+* React Icon library. 
+
 
 ## Usage
 
