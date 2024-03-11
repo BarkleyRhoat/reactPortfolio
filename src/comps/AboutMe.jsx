@@ -19,7 +19,10 @@ My penchant for perpetual growth propels me into the realm of quick learning, al
                     <img src={photo} className='shot' />
                 </div>
             </div>
-    
+            <motion.div
+        className='skills-text'>
+        Skills
+    </motion.div>
             <div>
                 <motion.ul
                     variants={ulVariants}
@@ -97,7 +100,6 @@ My penchant for perpetual growth propels me into the realm of quick learning, al
                             <span className='icon-text'>JavaScript</span>
                             </a>
                         </motion.li>
-                        
                 </motion.ul>
             </div>
         </div>

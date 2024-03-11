@@ -173,6 +173,7 @@ h3 {
     flex-direction: column;
     margin-left: 11rem;
     gap: 10px;
+    list-style: none;
   }
   
   .stack-icon {
@@ -180,9 +181,23 @@ h3 {
     width: 45px;
   }
 
+  .stack-container {
+    display: flex;
+    align-items: center;
+  }
+
   .stack-icon-container {
     position: relative;
     display: inline-block;
+  }
+
+  .skills-text {
+    font-size: 18px;
+    font-weight: bold;
+    color:#5D3353;
+    align-items: center;
+    text-orientation: upright;
+    writing-mode: vertical-lr;
   }
 
   .icon-text {
@@ -200,6 +215,9 @@ h3 {
     margin-left: -60px;
     opacity: 0;
     transition: opacity 0.3s;
+}
+.stack-icon-link{
+  margin-right: 10px;
 }
 
 .stack-icon-link:hover .icon-text {
