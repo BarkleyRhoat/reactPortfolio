@@ -179,6 +179,33 @@ h3 {
     height: 45px;
     width: 45px;
   }
+
+  .stack-icon-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .icon-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.stack-icon-link:hover .icon-text {
+  visibility: visible;
+    opacity: 1;
+}
   
   .slider {
     border: 1px solid;
@@ -328,6 +355,7 @@ h3 {
   
     .about-me-container {
       display: flex;
+      align-items: center;
       height: 100vh;
     }
   

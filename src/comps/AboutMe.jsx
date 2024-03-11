@@ -19,7 +19,7 @@ My penchant for perpetual growth propels me into the realm of quick learning, al
                     <img src={photo} className='shot' />
                 </div>
             </div>
-            {/* <div>Skills</div> */}
+    
             <div>
                 <motion.ul
                     variants={ulVariants}
@@ -32,7 +32,10 @@ My penchant for perpetual growth propels me into the realm of quick learning, al
                         initial='initial'
                         animate='animate'
                         transition='transition'>
-                        <a href='https://reactjs.org/'><TbBrandReact className='stack-icon' /></a> 
+                        <a href='https://reactjs.org/' className='stack-icon-link'>
+                <TbBrandReact className='stack-icon' />
+                <span className='icon-text'>React</span>
+            </a>
                         
                     </motion.li>
                     <motion.li
@@ -40,41 +43,59 @@ My penchant for perpetual growth propels me into the realm of quick learning, al
                         whileHover={'hover'}
                         animate='animate'
                         transition='transition'>
-                        <a href='https://www.w3schools.com/html/'><TbBrandHtml5 className='stack-icon' /></a>
+                        <a href='https://www.w3schools.com/html/' className='stack-icon-link'>
+                            <TbBrandHtml5 className='stack-icon' />
+                            <span className='icon-text'>HTML</span>
+                            </a>
                         </motion.li>
                     <motion.li
                         variants={iconVariants}
                         whileHover={'hover'}
                         animate='animate'
                         transition='transition'>
-                        <a href='https://www.w3schools.com/Css/'><TbBrandCss3 className='stack-icon' /></a>
+                        <a href='https://www.w3schools.com/Css/' className='stack-icon-link'>
+                            <TbBrandCss3 className='stack-icon' />
+                            <span className='icon-text'>CSS</span>
+                            </a>
                          </motion.li>
                     <motion.li variants={iconVariants}
                         whileHover={'hover'}
                         animate='animate'
                         transition='transition'>
-                        <a href='https://getbootstrap.com/'><TbBrandBootstrap className='stack-icon' /></a>
+                        <a href='https://getbootstrap.com/' className='stack-icon-link'>
+                            <TbBrandBootstrap className='stack-icon' />
+                            <span className='icon-text'>Bootstrap</span>
+                            </a>
                         </motion.li>
                     <motion.li
                         variants={iconVariants}
                         whileHover={'hover'}
                         animate='animate'
                         transition='transition'>
-                        <a href='https://www.mongodb.com/'><TbBrandMongodb className='stack-icon' /></a>
+                        <a href='https://www.mongodb.com/' className='stack-icon-link'>
+                            <TbBrandMongodb className='stack-icon' />
+                            <span className='icon-text'>MongDB</span>
+                            </a>
                         </motion.li>
                     <motion.li
                         variants={iconVariants}
                         whileHover={'hover'}
                         animate='animate'
                         transition='transition'>
-                        <a href='https://www.mysql.com/'><TbBrandMysql className='stack-icon' /></a>
+                        <a href='https://www.mysql.com/' className='stack-icon-link'>
+                            <TbBrandMysql className='stack-icon' />
+                            <span className='icon-text'>MySQL</span>
+                            </a>
                        </motion.li>
                     <motion.li
                         variants={iconVariants}
                         whileHover={'hover'}
                         animate='animate'
                         transition='transition'>
-                        <a href='hhttps://www.w3schools.com/js/DEFAULT.asp'><TbBrandJavascript className='stack-icon' /></a>
+                        <a href='hhttps://www.w3schools.com/js/DEFAULT.asp' className='stack-icon-link'>
+                            <TbBrandJavascript className='stack-icon' />
+                            <span className='icon-text'>JavaScript</span>
+                            </a>
                         </motion.li>
                         
                 </motion.ul>
