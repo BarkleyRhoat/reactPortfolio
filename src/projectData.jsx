@@ -1,6 +1,7 @@
 import tasteBudsPhoto from './assets/tastebuds.png'
 import dinnerApp from './assets/whatsForDinner.png'
 import socialMediaApi from './assets/AddFriend.png'
+import gighub from './assets/gighub.png'
 
 export const projectData = [
     {
@@ -26,6 +27,14 @@ export const projectData = [
         tech: 'JavaScript, mongoDb, express',
         ghlink: 'https://github.com/BarkleyRhoat/Social-Network-API',
         link: '',
+      },
+      {
+        id: 4,
+        photo: gighub,
+        name: 'gighub ',
+        tech: 'React, Material UI, graphql, mongoose',
+        ghlink: 'https://github.com/Aaron-Heath/gighub',
+        link: 'https://gighub-v82p.onrender.com/',
       }
 ]
 
