@@ -14,10 +14,10 @@ const NavBar = ({toggleTheme}) => {
     };
 
     const handleDownload = () => {
-      const resumePath = './Resume.pdf';
+      const resumePath = './Resume(6).pdf';
       const link = document.createElement('a');
       link.href = resumePath;
-      link.download = 'Resume.pdf';
+      link.download = 'Resume(6).pdf';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
