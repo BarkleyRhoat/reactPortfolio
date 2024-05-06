@@ -1,7 +1,7 @@
 import tasteBudsPhoto from './assets/tastebuds.png'
 import dinnerApp from './assets/whatsForDinner.png'
 import socialMediaApi from './assets/AddFriend.png'
-import gighub from './assets/gighub1.png'
+import gighub from './assets/gighub.png'
 
 export const projectData = [
     {
