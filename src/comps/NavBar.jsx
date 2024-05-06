@@ -14,7 +14,9 @@ const NavBar = ({toggleTheme}) => {
     };
 
     const handleDownload = () => {
+      console.log('downloading resume...');
       const resumePath = './Resume(6).pdf';
+      console.log('resume path:', resumePath);
       const link = document.createElement('a');
       link.href = resumePath;
       link.download = 'Resume(6).pdf';
