@@ -149,7 +149,7 @@ h3 {
   .about-me {
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 10vh;
     text-align: center;
     justify-content: center;
     margin-right: 5%;
@@ -168,22 +168,21 @@ h3 {
   }
   
   .stack {
-    margin-top: 40%;
-    display: flex;
-    flex-direction: column;
-    margin-left: 11rem;
-    gap: 10px;
-    list-style: none;
+    position: relative;
+    top: 40px;
   }
   
   .stack-icon {
-    height: 45px;
-    width: 45px;
+    height: 5px;
+    width: 5px;
   }
 
   .stack-container {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-right: 1px;
   }
 
   .stack-icon-container {
@@ -192,12 +191,10 @@ h3 {
   }
 
   .skills-text {
-    font-size: 18px;
+    font-size: 36px;
     font-weight: bold;
-    color:#5D3353;
-    align-items: center;
-    text-orientation: upright;
-    writing-mode: vertical-lr;
+    color: #5D3353;
+    margin-bottom: 10px;
   }
 
   .icon-text {
@@ -215,15 +212,20 @@ h3 {
     margin-left: -60px;
     opacity: 0;
     transition: opacity 0.3s;
-}
-.stack-icon-link{
-  margin-right: 10px;
-}
+  }
+  .stack-icon-link{
+    margin-right: px;
+  }
 
-.stack-icon-link:hover .icon-text {
-  visibility: visible;
+  .stack-icon-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .stack-icon-link:hover .icon-text {
+     visibility: visible;
     opacity: 1;
-}
+  }
   
   .slider {
     border: 1px solid;

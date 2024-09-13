@@ -22,7 +22,7 @@ const App = () => {
                 <Header/>
                 <Navbar toggleTheme={toggleTheme}/>
                 <FullPage />
-                <Footer/>
+                {/* <Footer/> */}
             </div>
             </ThemeContext.Provider>
     )

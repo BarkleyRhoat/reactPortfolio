@@ -1,5 +1,5 @@
 import React from 'react'
-import {TbBrandReact, TbBrandHtml5, TbBrandCss3, TbBrandBootstrap, TbBrandMongodb, TbBrandMysql, TbBrandJavascript  } from 'react-icons/tb';
+import { SiPostgresql, SiMongodb, SiMysql, SiFlask, SiJquery, SiPython, SiReact,SiHtml5, SiCss3,SiBootstrap, SiJavascript, SiMaterialdesign, SiTypescript, SiNodedotjs       } from "react-icons/si"
 import { motion } from 'framer-motion';
 import { ulVariants, iconVariants } from '../variants/aboutPageVariants';
 import photo from '../assets/aboutMePhoto.JPG'
@@ -19,11 +19,12 @@ const AboutMe = () => {
                     <img src={photo} className='shot' />
                 </div>
             </div>
-            <motion.div
+            {/* <motion.div
         className='skills-text'>
         Skills
-    </motion.div>
-            <div>
+    </motion.div> */}
+            <div className='stack-container'>
+                <div className='skills-text'>Skills</div> 
                 <motion.ul
                     variants={ulVariants}
                     animate='animate'
@@ -36,10 +37,9 @@ const AboutMe = () => {
                         animate='animate'
                         transition='transition'>
                         <a href='https://reactjs.org/' className='stack-icon-link'>
-                <TbBrandReact className='stack-icon' />
-                <span className='icon-text'>React</span>
-            </a>
-                        
+                         <SiReact className='stack-icon' />
+                         <span className='icon-text'>React</span>
+                         </a>    
                     </motion.li>
                     <motion.li
                         variants={iconVariants}
@@ -47,7 +47,7 @@ const AboutMe = () => {
                         animate='animate'
                         transition='transition'>
                         <a href='https://www.w3schools.com/html/' className='stack-icon-link'>
-                            <TbBrandHtml5 className='stack-icon' />
+                            <SiHtml5  className='stack-icon' />
                             <span className='icon-text'>HTML</span>
                             </a>
                         </motion.li>
@@ -57,7 +57,7 @@ const AboutMe = () => {
                         animate='animate'
                         transition='transition'>
                         <a href='https://www.w3schools.com/Css/' className='stack-icon-link'>
-                            <TbBrandCss3 className='stack-icon' />
+                            <SiCss3  className='stack-icon' />
                             <span className='icon-text'>CSS</span>
                             </a>
                          </motion.li>
@@ -65,9 +65,18 @@ const AboutMe = () => {
                         whileHover={'hover'}
                         animate='animate'
                         transition='transition'>
-                        <a href='https://getbootstrap.com/' className='stack-icon-link'>
-                            <TbBrandBootstrap className='stack-icon' />
+                        <a href='https://www.w3schools.com/bootstrap/bootstrap_ver.asp' className='stack-icon-link'>
+                            <SiBootstrap  className='stack-icon' />
                             <span className='icon-text'>Bootstrap</span>
+                            </a>
+                        </motion.li>
+                        <motion.li variants={iconVariants}
+                        whileHover={'hover'}
+                        animate='animate'
+                        transition='transition'>
+                        <a href='https://www.w3schools.com/w3css/w3css_material.asp' className='stack-icon-link'>
+                            <SiMaterialdesign  className='stack-icon' />
+                            <span className='icon-text'>MaterialUI</span>
                             </a>
                         </motion.li>
                     <motion.li
@@ -76,8 +85,18 @@ const AboutMe = () => {
                         animate='animate'
                         transition='transition'>
                         <a href='https://www.mongodb.com/' className='stack-icon-link'>
-                            <TbBrandMongodb className='stack-icon' />
+                            <SiMongodb className='stack-icon' />
                             <span className='icon-text'>MongDB</span>
+                            </a>
+                        </motion.li>
+                        <motion.li
+                        variants={iconVariants}
+                        whileHover={'hover'}
+                        animate='animate'
+                        transition='transition'>
+                        <a href='https://www.w3schools.com/postgresql/index.php' className='stack-icon-link'>
+                            <SiPostgresql className='stack-icon' />
+                            <span className='icon-text'>PostgreSQL</span>
                             </a>
                         </motion.li>
                     <motion.li
@@ -86,7 +105,7 @@ const AboutMe = () => {
                         animate='animate'
                         transition='transition'>
                         <a href='https://www.mysql.com/' className='stack-icon-link'>
-                            <TbBrandMysql className='stack-icon' />
+                            <SiMysql className='stack-icon' />
                             <span className='icon-text'>MySQL</span>
                             </a>
                        </motion.li>
@@ -96,8 +115,58 @@ const AboutMe = () => {
                         animate='animate'
                         transition='transition'>
                         <a href='hhttps://www.w3schools.com/js/DEFAULT.asp' className='stack-icon-link'>
-                            <TbBrandJavascript className='stack-icon' />
+                            <SiJavascript  className='stack-icon' />
                             <span className='icon-text'>JavaScript</span>
+                            </a>
+                        </motion.li>
+                        <motion.li
+                        variants={iconVariants}
+                        whileHover={'hover'}
+                        animate='animate'
+                        transition='transition'>
+                        <a href='https://www.w3schools.com/typescript/index.php' className='stack-icon-link'>
+                            <SiTypescript  className='stack-icon' />
+                            <span className='icon-text'>Typescript</span>
+                            </a>
+                        </motion.li>
+                        <motion.li
+                        variants={iconVariants}
+                        whileHover={'hover'}
+                        animate='animate'
+                        transition='transition'>
+                        <a href='https://www.w3schools.com/nodejs/default.a' className='stack-icon-link'>
+                            <SiNodedotjs  className='stack-icon' />
+                            <span className='icon-text'>Node.js</span>
+                            </a>
+                        </motion.li>
+                        <motion.li
+                        variants={iconVariants}
+                        whileHover={'hover'}
+                        animate='animate'
+                        transition='transition'>
+                        <a href='https://www.w3schools.com/jquery/default.asp' className='stack-icon-link'>
+                            <SiJquery className='stack-icon' />
+                            <span className='icon-text'>jQuery</span>
+                            </a>
+                        </motion.li>
+                        <motion.li
+                        variants={iconVariants}
+                        whileHover={'hover'}
+                        animate='animate'
+                        transition='transition'>
+                        <a href='https://www.w3schools.com/python/default.asp' className='stack-icon-link'>
+                            <SiPython  className='stack-icon' />
+                            <span className='icon-text'>Python</span>
+                            </a>
+                        </motion.li>
+                        <motion.li
+                        variants={iconVariants}
+                        whileHover={'hover'}
+                        animate='animate'
+                        transition='transition'>
+                            <a href='' className='stack-icon-link'>
+                            <SiFlask   className='stack-icon' />
+                            <span className='icon-text'>Flask</span>
                             </a>
                         </motion.li>
                 </motion.ul>
