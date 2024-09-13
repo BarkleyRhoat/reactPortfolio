@@ -13,7 +13,15 @@ export const projectData = [
       link: 'https://tastebuds-app-de96bd264a71.herokuapp.com/',
     },
     {
-        id: 2,
+      id: 2,
+      photo: gighub,
+      name: 'gighub ',
+      tech: 'React, Material UI, graphql, mongoose',
+      ghlink: 'https://github.com/Aaron-Heath/gighub',
+      link: 'https://gighub-v82p.onrender.com/',
+    },
+    {
+        id: 3,
         photo: dinnerApp,
         name: 'Dinner App',
         tech: 'HTML, CSS, JavaScript',
@@ -21,21 +29,13 @@ export const projectData = [
         link: 'https://nguyent0275.github.io/whats-for-dinner/',
       },
       {
-        id: 3,
+        id: 4,
         photo: socialMediaApi,
         name: 'social network api ',
         tech: 'JavaScript, mongoDb, express',
         ghlink: 'https://github.com/BarkleyRhoat/Social-Network-API',
         link: '',
       },
-      {
-        id: 4,
-        photo: gighub,
-        name: 'gighub ',
-        tech: 'React, Material UI, graphql, mongoose',
-        ghlink: 'https://github.com/Aaron-Heath/gighub',
-        link: 'https://gighub-v82p.onrender.com/',
-      }
 ]
 
 export default projectData
