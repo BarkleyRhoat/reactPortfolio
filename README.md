@@ -41,8 +41,8 @@ This project was built with
 
 * rhoatdesigns@gmail.com
 
-[Project Link](https://github.com/BarkleyRhoat/reactPortfolio)
-[Website](https://barkleyportfolio.netlify.app/)
+* [Project Link](https://github.com/BarkleyRhoat/reactPortfolio)
+* [Website](https://barkleyportfolio.netlify.app/)
 
   
   ## License
