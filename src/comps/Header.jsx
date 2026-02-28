@@ -9,7 +9,7 @@ const Header = () => {
     variants={headVariants.animatedHeader} 
     initial="from" 
     animate="to" 
-    transition={{ duration: 2, ease: 'ease-in-out', loop: Infinity }}>
+    transition={{ duration: 6, ease: 'easeInOut', repeat: Infinity, repeatType: 'reverse' }}>
       <h2>Welcome</h2>
     </motion.div>
   );

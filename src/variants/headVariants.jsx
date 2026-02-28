@@ -1,10 +1,10 @@
 export const headVariants = {
   animatedHeader: {
     from: {
-      transform: 'translateX(-100%)', // Start off-screen to the left
+      x: 0,
     },
     to: {
-      transform: 'translateX(0)', // Move to the original position
+      x: 'calc(100vw - 200px)',
     },
   },
 };

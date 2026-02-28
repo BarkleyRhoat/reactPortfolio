@@ -29,8 +29,8 @@ function Projects() {
         <div className='projects-container'>
           <Slider {...settings} className='slider'>
             {projectData.map((project) => (
-              <div>
-                <div key={project.id} id={project.id} className='projects-card'>
+              <div key={project.id}>
+                <div id={project.id} className='projects-card'>
                   <img src={project.photo} className='projects-photo' />
                 </div>
                 <div className='project-card-footer'>

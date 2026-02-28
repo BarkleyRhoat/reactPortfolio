@@ -13,13 +13,11 @@ const NavBar = ({toggleTheme}) => {
         toggleTheme();
     };
 
-    const handleDownload = () => {
-      console.log('downloading resume...');
-      const resumePath = './Resume.pdf';
-      console.log('resume path:', resumePath);
+    const handleDownload = (e) => {
+      e.preventDefault();
       const link = document.createElement('a');
-      link.href = resumePath;
-      link.download = 'Resume(6).pdf';
+      link.href = '/Resume.pdf';
+      link.download = 'BarkleyRhoat_Resume.pdf';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);

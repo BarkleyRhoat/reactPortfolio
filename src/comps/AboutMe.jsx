@@ -114,7 +114,7 @@ const AboutMe = () => {
                         whileHover={'hover'}
                         animate='animate'
                         transition='transition'>
-                        <a href='hhttps://www.w3schools.com/js/DEFAULT.asp' className='stack-icon-link'>
+                        <a href='https://www.w3schools.com/js/DEFAULT.asp' className='stack-icon-link'>
                             <SiJavascript  className='stack-icon' />
                             <span className='icon-text'>JavaScript</span>
                             </a>
